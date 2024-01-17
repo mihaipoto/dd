@@ -1,0 +1,72 @@
+{
+  "api/TestSR.API.ChatHub.html": {
+    "href": "api/TestSR.API.ChatHub.html",
+    "title": "Class ChatHub | Documentatie TestSR",
+    "keywords": "Class ChatHub Namespace TestSR.API public class ChatHub : Hub<IChatClient>, IDisposable Implements IDisposable Methods OnConnectedAsync() Called when a new connection is established with the hub. public override Task OnConnectedAsync() Returns Task A Task that represents the asynchronous connect."
+  },
+  "api/TestSR.API.ClientCertificateAuthenticationHandler.html": {
+    "href": "api/TestSR.API.ClientCertificateAuthenticationHandler.html",
+    "title": "Class ClientCertificateAuthenticationHandler | Documentatie TestSR",
+    "keywords": "Class ClientCertificateAuthenticationHandler Namespace TestSR.API public class ClientCertificateAuthenticationHandler : AuthenticationHandler<ClientCertificateAuthenticationOptions>, IAuthenticationHandler Implements IAuthenticationHandler Constructors ClientCertificateAuthenticationHandler(IOptionsMonitor<ClientCertificateAuthenticationOptions>, ILoggerFactory, UrlEncoder) public ClientCertificateAuthenticationHandler(IOptionsMonitor<ClientCertificateAuthenticationOptions> options, ILoggerFactory logger, UrlEncoder encoder) Parameters options IOptionsMonitor<ClientCertificateAuthenticationOptions> logger ILoggerFactory encoder UrlEncoder Methods HandleAuthenticateAsync() Allows derived types to handle authentication. protected override Task<AuthenticateResult> HandleAuthenticateAsync() Returns Task<AuthenticateResult> The AuthenticateResult."
+  },
+  "api/TestSR.API.ClientCertificateAuthenticationOptions.html": {
+    "href": "api/TestSR.API.ClientCertificateAuthenticationOptions.html",
+    "title": "Class ClientCertificateAuthenticationOptions | Documentatie TestSR",
+    "keywords": "Class ClientCertificateAuthenticationOptions Namespace TestSR.API public class ClientCertificateAuthenticationOptions : AuthenticationSchemeOptions"
+  },
+  "api/TestSR.API.ClientCertificateProvider.html": {
+    "href": "api/TestSR.API.ClientCertificateProvider.html",
+    "title": "Class ClientCertificateProvider | Documentatie TestSR",
+    "keywords": "Class ClientCertificateProvider Namespace TestSR.API public class ClientCertificateProvider : IClientCertificateProvider Implements IClientCertificateProvider Methods GetClientCertificates(string) public X509Certificate2Collection GetClientCertificates(string subject) Parameters subject string Returns X509Certificate2Collection"
+  },
+  "api/TestSR.API.ICertificateValidationService.html": {
+    "href": "api/TestSR.API.ICertificateValidationService.html",
+    "title": "Interface ICertificateValidationService | Documentatie TestSR",
+    "keywords": "Interface ICertificateValidationService Namespace TestSR.API public interface ICertificateValidationService Methods ValidateCertificate(X509Certificate2) bool ValidateCertificate(X509Certificate2 clientCertificate) Parameters clientCertificate X509Certificate2 Returns bool"
+  },
+  "api/TestSR.API.IChatClient.html": {
+    "href": "api/TestSR.API.IChatClient.html",
+    "title": "Interface IChatClient | Documentatie TestSR",
+    "keywords": "Interface IChatClient Namespace TestSR.API public interface IChatClient Methods ReceiveNotification(string) Task ReceiveNotification(string message) Parameters message string Returns Task UpdateTime(DateTime) Task UpdateTime(DateTime dateTime) Parameters dateTime DateTime Returns Task"
+  },
+  "api/TestSR.API.IClientCertificateProvider.html": {
+    "href": "api/TestSR.API.IClientCertificateProvider.html",
+    "title": "Interface IClientCertificateProvider | Documentatie TestSR",
+    "keywords": "Interface IClientCertificateProvider Namespace TestSR.API public interface IClientCertificateProvider Methods GetClientCertificates(string) X509Certificate2Collection GetClientCertificates(string subject) Parameters subject string Returns X509Certificate2Collection"
+  },
+  "api/TestSR.API.MyCertificateValidationService.html": {
+    "href": "api/TestSR.API.MyCertificateValidationService.html",
+    "title": "Class MyCertificateValidationService | Documentatie TestSR",
+    "keywords": "Class MyCertificateValidationService Namespace TestSR.API public class MyCertificateValidationService : ICertificateValidationService Implements ICertificateValidationService Methods ValidateCertificate(X509Certificate2) public bool ValidateCertificate(X509Certificate2 clientCertificate) Parameters clientCertificate X509Certificate2 Returns bool"
+  },
+  "api/TestSR.API.MyConnection.html": {
+    "href": "api/TestSR.API.MyConnection.html",
+    "title": "Class MyConnection | Documentatie TestSR",
+    "keywords": "Class MyConnection Namespace TestSR.API public class MyConnection : PersistentConnection Methods AuthorizeRequest(IRequest) Called before every request and gives the user a authorize the user. protected override bool AuthorizeRequest(IRequest request) Parameters request IRequest The Microsoft.AspNet.SignalR.IRequest for the current connection. Returns bool A boolean value that represents if the request is authorized. OnReceived(IRequest, string, string) Called when data is received from a connection. protected override Task OnReceived(IRequest request, string connectionId, string data) Parameters request IRequest The Microsoft.AspNet.SignalR.IRequest for the current connection. connectionId string The id of the connection sending the data. data string The payload sent to the connection. Returns Task A Task that completes when the receive operation is complete."
+  },
+  "api/TestSR.API.ServerTimeNotifierService.html": {
+    "href": "api/TestSR.API.ServerTimeNotifierService.html",
+    "title": "Class ServerTimeNotifierService | Documentatie TestSR",
+    "keywords": "Class ServerTimeNotifierService Namespace TestSR.API public class ServerTimeNotifierService : BackgroundService, IHostedService, IDisposable Implements IHostedService IDisposable Constructors ServerTimeNotifierService(ILogger<ServerTimeNotifierService>, IHubContext<ChatHub, IChatClient>) public ServerTimeNotifierService(ILogger<ServerTimeNotifierService> logger, IHubContext<ChatHub, IChatClient> context) Parameters logger ILogger<ServerTimeNotifierService> context IHubContext<ChatHub, IChatClient> Methods ExecuteAsync(CancellationToken) This method is called when the IHostedService starts. The implementation should return a task that represents the lifetime of the long running operation(s) being performed. protected override Task ExecuteAsync(CancellationToken stoppingToken) Parameters stoppingToken CancellationToken Triggered when StopAsync(CancellationToken) is called. Returns Task A Task that represents the long running operations. Remarks See Worker Services in .NET for implementation guidelines."
+  },
+  "api/TestSR.API.html": {
+    "href": "api/TestSR.API.html",
+    "title": "Namespace TestSR.API | Documentatie TestSR",
+    "keywords": "Namespace TestSR.API Classes ChatHub ClientCertificateAuthenticationHandler ClientCertificateAuthenticationOptions ClientCertificateProvider MyCertificateValidationService MyConnection ServerTimeNotifierService Interfaces ICertificateValidationService IChatClient IClientCertificateProvider"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Documentatie TestSR",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Documentatie TestSR",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Documentatie TestSR",
+    "keywords": "This is the HOMEPAGE Refer to Markdown for how to write markdown files. Quick Start Notes Add images to the images folder if the file is referencing an image"
+  }
+}

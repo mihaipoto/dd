@@ -1,0 +1,1182 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestSR.API.MyConnection
+  commentId: T:TestSR.API.MyConnection
+  id: MyConnection
+  parent: TestSR.API
+  children:
+  - TestSR.API.MyConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  - TestSR.API.MyConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: MyConnection
+  nameWithType: MyConnection
+  fullName: TestSR.API.MyConnection
+  type: Class
+  source:
+    id: MyConnection
+    path: E:\repos\TestSR\TestSR.API\MyConnection.cs
+    startLine: 5
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  syntax:
+    content: 'public class MyConnection : PersistentConnection'
+    content.vb: Public Class MyConnection Inherits PersistentConnection
+  inheritance:
+  - System.Object
+  - Microsoft.AspNet.SignalR.PersistentConnection
+  inheritedMembers:
+  - Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+  - Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+  - Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary{System.String,System.Object})
+  - Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+  - Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext,System.String,System.String@,System.String@,System.Int32@)
+  - Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(System.String,System.String)
+  - Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest,System.Collections.Generic.IList{System.String},System.String)
+  - Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  - Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  - Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest,System.String,System.Boolean)
+  - Microsoft.AspNet.SignalR.PersistentConnection.Trace
+  - Microsoft.AspNet.SignalR.PersistentConnection.ProtectedData
+  - Microsoft.AspNet.SignalR.PersistentConnection.Pool
+  - Microsoft.AspNet.SignalR.PersistentConnection.MessageBus
+  - Microsoft.AspNet.SignalR.PersistentConnection.JsonSerializer
+  - Microsoft.AspNet.SignalR.PersistentConnection.AckHandler
+  - Microsoft.AspNet.SignalR.PersistentConnection.TraceManager
+  - Microsoft.AspNet.SignalR.PersistentConnection.Counters
+  - Microsoft.AspNet.SignalR.PersistentConnection.Transport
+  - Microsoft.AspNet.SignalR.PersistentConnection.UserIdProvider
+  - Microsoft.AspNet.SignalR.PersistentConnection.Connection
+  - Microsoft.AspNet.SignalR.PersistentConnection.Groups
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TestSR.API.MyConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  commentId: M:TestSR.API.MyConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  id: OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  parent: TestSR.API.MyConnection
+  langs:
+  - csharp
+  - vb
+  name: OnReceived(IRequest, string, string)
+  nameWithType: MyConnection.OnReceived(IRequest, string, string)
+  fullName: TestSR.API.MyConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest, string, string)
+  type: Method
+  source:
+    id: OnReceived
+    path: E:\repos\TestSR\TestSR.API\MyConnection.cs
+    startLine: 7
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  summary: Called when data is received from a connection.
+  example: []
+  syntax:
+    content: protected override Task OnReceived(IRequest request, string connectionId, string data)
+    parameters:
+    - id: request
+      type: Microsoft.AspNet.SignalR.IRequest
+      description: The <xref href="Microsoft.AspNet.SignalR.IRequest" data-throw-if-not-resolved="false"></xref> for the current connection.
+    - id: connectionId
+      type: System.String
+      description: The id of the connection sending the data.
+    - id: data
+      type: System.String
+      description: The payload sent to the connection.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> that completes when the receive operation is complete.
+    content.vb: Protected Overrides Function OnReceived(request As IRequest, connectionId As String, data As String) As Task
+  overridden: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  overload: TestSR.API.MyConnection.OnReceived*
+  nameWithType.vb: MyConnection.OnReceived(IRequest, String, String)
+  fullName.vb: TestSR.API.MyConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest, String, String)
+  name.vb: OnReceived(IRequest, String, String)
+- uid: TestSR.API.MyConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  commentId: M:TestSR.API.MyConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  id: AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  parent: TestSR.API.MyConnection
+  langs:
+  - csharp
+  - vb
+  name: AuthorizeRequest(IRequest)
+  nameWithType: MyConnection.AuthorizeRequest(IRequest)
+  fullName: TestSR.API.MyConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  type: Method
+  source:
+    id: AuthorizeRequest
+    path: E:\repos\TestSR\TestSR.API\MyConnection.cs
+    startLine: 12
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  summary: Called before every request and gives the user a authorize the user.
+  example: []
+  syntax:
+    content: protected override bool AuthorizeRequest(IRequest request)
+    parameters:
+    - id: request
+      type: Microsoft.AspNet.SignalR.IRequest
+      description: The <xref href="Microsoft.AspNet.SignalR.IRequest" data-throw-if-not-resolved="false"></xref> for the current connection.
+    return:
+      type: System.Boolean
+      description: A boolean value that represents if the request is authorized.
+    content.vb: Protected Overrides Function AuthorizeRequest(request As IRequest) As Boolean
+  overridden: Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  overload: TestSR.API.MyConnection.AuthorizeRequest*
+references:
+- uid: TestSR.API
+  commentId: N:TestSR.API
+  href: TestSR.html
+  name: TestSR.API
+  nameWithType: TestSR.API
+  fullName: TestSR.API
+  spec.csharp:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+  spec.vb:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.AspNet.SignalR.PersistentConnection
+  commentId: T:Microsoft.AspNet.SignalR.PersistentConnection
+  parent: Microsoft.AspNet.SignalR
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: PersistentConnection
+  nameWithType: PersistentConnection
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Initialize(IDependencyResolver)
+  nameWithType: PersistentConnection.Initialize(IDependencyResolver)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+    name: Initialize
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IDependencyResolver
+    name: IDependencyResolver
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.Initialize(Microsoft.AspNet.SignalR.IDependencyResolver)
+    name: Initialize
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IDependencyResolver
+    name: IDependencyResolver
+    isExternal: true
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Authorize(IRequest)
+  nameWithType: PersistentConnection.Authorize(IRequest)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+    name: Authorize
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.Authorize(Microsoft.AspNet.SignalR.IRequest)
+    name: Authorize
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary{System.String,System.Object})
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary{System.String,System.Object})
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: ProcessRequest(IDictionary<string, object>)
+  nameWithType: PersistentConnection.ProcessRequest(IDictionary<string, object>)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary<string, object>)
+  nameWithType.vb: PersistentConnection.ProcessRequest(IDictionary(Of String, Object))
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary(Of String, Object))
+  name.vb: ProcessRequest(IDictionary(Of String, Object))
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary{System.String,System.Object})
+    name: ProcessRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(System.Collections.Generic.IDictionary{System.String,System.Object})
+    name: ProcessRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: ProcessRequest(HostContext)
+  nameWithType: PersistentConnection.ProcessRequest(HostContext)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+    name: ProcessRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.Hosting.HostContext
+    name: HostContext
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/Hosting/HostContext.cs
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.ProcessRequest(Microsoft.AspNet.SignalR.Hosting.HostContext)
+    name: ProcessRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.Hosting.HostContext
+    name: HostContext
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/Hosting/HostContext.cs
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext,System.String,System.String@,System.String@,System.Int32@)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext,System.String,System.String@,System.String@,System.Int32@)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: TryGetConnectionId(HostContext, string, out string, out string, out int)
+  nameWithType: PersistentConnection.TryGetConnectionId(HostContext, string, out string, out string, out int)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext, string, out string, out string, out int)
+  nameWithType.vb: PersistentConnection.TryGetConnectionId(HostContext, String, String, String, Integer)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext, String, String, String, Integer)
+  name.vb: TryGetConnectionId(HostContext, String, String, String, Integer)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext,System.String,System.String@,System.String@,System.Int32@)
+    name: TryGetConnectionId
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.Hosting.HostContext
+    name: HostContext
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/Hosting/HostContext.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.TryGetConnectionId(Microsoft.AspNet.SignalR.Hosting.HostContext,System.String,System.String@,System.String@,System.Int32@)
+    name: TryGetConnectionId
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.Hosting.HostContext
+    name: HostContext
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/Hosting/HostContext.cs
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(System.String,System.String)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(System.String,System.String)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: GetSignals(string, string)
+  nameWithType: PersistentConnection.GetSignals(string, string)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(string, string)
+  nameWithType.vb: PersistentConnection.GetSignals(String, String)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(String, String)
+  name.vb: GetSignals(String, String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(System.String,System.String)
+    name: GetSignals
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.GetSignals(System.String,System.String)
+    name: GetSignals
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest,System.Collections.Generic.IList{System.String},System.String)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest,System.Collections.Generic.IList{System.String},System.String)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: OnRejoiningGroups(IRequest, IList<string>, string)
+  nameWithType: PersistentConnection.OnRejoiningGroups(IRequest, IList<string>, string)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest, System.Collections.Generic.IList<string>, string)
+  nameWithType.vb: PersistentConnection.OnRejoiningGroups(IRequest, IList(Of String), String)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest, System.Collections.Generic.IList(Of String), String)
+  name.vb: OnRejoiningGroups(IRequest, IList(Of String), String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest,System.Collections.Generic.IList{System.String},System.String)
+    name: OnRejoiningGroups
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnRejoiningGroups(Microsoft.AspNet.SignalR.IRequest,System.Collections.Generic.IList{System.String},System.String)
+    name: OnRejoiningGroups
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: OnConnected(IRequest, string)
+  nameWithType: PersistentConnection.OnConnected(IRequest, string)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest, string)
+  nameWithType.vb: PersistentConnection.OnConnected(IRequest, String)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest, String)
+  name.vb: OnConnected(IRequest, String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+    name: OnConnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnConnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+    name: OnConnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: OnReconnected(IRequest, string)
+  nameWithType: PersistentConnection.OnReconnected(IRequest, string)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest, string)
+  nameWithType.vb: PersistentConnection.OnReconnected(IRequest, String)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest, String)
+  name.vb: OnReconnected(IRequest, String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+    name: OnReconnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReconnected(Microsoft.AspNet.SignalR.IRequest,System.String)
+    name: OnReconnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest,System.String,System.Boolean)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest,System.String,System.Boolean)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: OnDisconnected(IRequest, string, bool)
+  nameWithType: PersistentConnection.OnDisconnected(IRequest, string, bool)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest, string, bool)
+  nameWithType.vb: PersistentConnection.OnDisconnected(IRequest, String, Boolean)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest, String, Boolean)
+  name.vb: OnDisconnected(IRequest, String, Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest,System.String,System.Boolean)
+    name: OnDisconnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnDisconnected(Microsoft.AspNet.SignalR.IRequest,System.String,System.Boolean)
+    name: OnDisconnected
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Trace
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Trace
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Trace
+  nameWithType: PersistentConnection.Trace
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Trace
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.ProtectedData
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.ProtectedData
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: ProtectedData
+  nameWithType: PersistentConnection.ProtectedData
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.ProtectedData
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Pool
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Pool
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Pool
+  nameWithType: PersistentConnection.Pool
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Pool
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.MessageBus
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.MessageBus
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: MessageBus
+  nameWithType: PersistentConnection.MessageBus
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.MessageBus
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.JsonSerializer
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.JsonSerializer
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: JsonSerializer
+  nameWithType: PersistentConnection.JsonSerializer
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.JsonSerializer
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.AckHandler
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.AckHandler
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: AckHandler
+  nameWithType: PersistentConnection.AckHandler
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.AckHandler
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.TraceManager
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.TraceManager
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: TraceManager
+  nameWithType: PersistentConnection.TraceManager
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.TraceManager
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Counters
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Counters
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Counters
+  nameWithType: PersistentConnection.Counters
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Counters
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Transport
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Transport
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Transport
+  nameWithType: PersistentConnection.Transport
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Transport
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.UserIdProvider
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.UserIdProvider
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: UserIdProvider
+  nameWithType: PersistentConnection.UserIdProvider
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.UserIdProvider
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Connection
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Connection
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Connection
+  nameWithType: PersistentConnection.Connection
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Connection
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.Groups
+  commentId: P:Microsoft.AspNet.SignalR.PersistentConnection.Groups
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: Groups
+  nameWithType: PersistentConnection.Groups
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.Groups
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNet.SignalR
+  commentId: N:Microsoft.AspNet.SignalR
+  isExternal: true
+  name: Microsoft.AspNet.SignalR
+  nameWithType: Microsoft.AspNet.SignalR
+  fullName: Microsoft.AspNet.SignalR
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+  - name: .
+  - uid: Microsoft.AspNet
+    name: AspNet
+    isExternal: true
+  - name: .
+  - uid: Microsoft.AspNet.SignalR
+    name: SignalR
+    isExternal: true
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+  - name: .
+  - uid: Microsoft.AspNet
+    name: AspNet
+    isExternal: true
+  - name: .
+  - uid: Microsoft.AspNet.SignalR
+    name: SignalR
+    isExternal: true
+- uid: Microsoft.AspNet.SignalR.IRequest
+  commentId: T:Microsoft.AspNet.SignalR.IRequest
+  parent: Microsoft.AspNet.SignalR
+  isExternal: true
+  name: IRequest
+  nameWithType: IRequest
+  fullName: Microsoft.AspNet.SignalR.IRequest
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: OnReceived(IRequest, string, string)
+  nameWithType: PersistentConnection.OnReceived(IRequest, string, string)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest, string, string)
+  nameWithType.vb: PersistentConnection.OnReceived(IRequest, String, String)
+  fullName.vb: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest, String, String)
+  name.vb: OnReceived(IRequest, String, String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+    name: OnReceived
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.OnReceived(Microsoft.AspNet.SignalR.IRequest,System.String,System.String)
+    name: OnReceived
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: TestSR.API.MyConnection.OnReceived*
+  commentId: Overload:TestSR.API.MyConnection.OnReceived
+  href: TestSR.API.MyConnection.html#TestSR_API_MyConnection_OnReceived_Microsoft_AspNet_SignalR_IRequest_System_String_System_String_
+  name: OnReceived
+  nameWithType: MyConnection.OnReceived
+  fullName: TestSR.API.MyConnection.OnReceived
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  commentId: M:Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  parent: Microsoft.AspNet.SignalR.PersistentConnection
+  isExternal: true
+  href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  name: AuthorizeRequest(IRequest)
+  nameWithType: PersistentConnection.AuthorizeRequest(IRequest)
+  fullName: Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+  spec.csharp:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+    name: AuthorizeRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNet.SignalR.PersistentConnection.AuthorizeRequest(Microsoft.AspNet.SignalR.IRequest)
+    name: AuthorizeRequest
+    isExternal: true
+    href: https://github.com/SignalR/SignalR/blob/7f53f266daf1aad3dabb1b6d7a71d4c1501ec8dc/src/Microsoft.AspNet.SignalR.Core/PersistentConnection.cs
+  - name: (
+  - uid: Microsoft.AspNet.SignalR.IRequest
+    name: IRequest
+    isExternal: true
+  - name: )
+- uid: TestSR.API.MyConnection.AuthorizeRequest*
+  commentId: Overload:TestSR.API.MyConnection.AuthorizeRequest
+  href: TestSR.API.MyConnection.html#TestSR_API_MyConnection_AuthorizeRequest_Microsoft_AspNet_SignalR_IRequest_
+  name: AuthorizeRequest
+  nameWithType: MyConnection.AuthorizeRequest
+  fullName: TestSR.API.MyConnection.AuthorizeRequest
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

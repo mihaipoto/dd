@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestSR.API.IChatClient
+  commentId: T:TestSR.API.IChatClient
+  id: IChatClient
+  parent: TestSR.API
+  children:
+  - TestSR.API.IChatClient.ReceiveNotification(System.String)
+  - TestSR.API.IChatClient.UpdateTime(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: IChatClient
+  nameWithType: IChatClient
+  fullName: TestSR.API.IChatClient
+  type: Interface
+  source:
+    id: IChatClient
+    path: E:\repos\TestSR\TestSR.API\ChatHub.cs
+    startLine: 27
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  syntax:
+    content: public interface IChatClient
+    content.vb: Public Interface IChatClient
+- uid: TestSR.API.IChatClient.ReceiveNotification(System.String)
+  commentId: M:TestSR.API.IChatClient.ReceiveNotification(System.String)
+  id: ReceiveNotification(System.String)
+  parent: TestSR.API.IChatClient
+  langs:
+  - csharp
+  - vb
+  name: ReceiveNotification(string)
+  nameWithType: IChatClient.ReceiveNotification(string)
+  fullName: TestSR.API.IChatClient.ReceiveNotification(string)
+  type: Method
+  source:
+    id: ReceiveNotification
+    path: E:\repos\TestSR\TestSR.API\ChatHub.cs
+    startLine: 29
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  syntax:
+    content: Task ReceiveNotification(string message)
+    parameters:
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ReceiveNotification(message As String) As Task
+  overload: TestSR.API.IChatClient.ReceiveNotification*
+  nameWithType.vb: IChatClient.ReceiveNotification(String)
+  fullName.vb: TestSR.API.IChatClient.ReceiveNotification(String)
+  name.vb: ReceiveNotification(String)
+- uid: TestSR.API.IChatClient.UpdateTime(System.DateTime)
+  commentId: M:TestSR.API.IChatClient.UpdateTime(System.DateTime)
+  id: UpdateTime(System.DateTime)
+  parent: TestSR.API.IChatClient
+  langs:
+  - csharp
+  - vb
+  name: UpdateTime(DateTime)
+  nameWithType: IChatClient.UpdateTime(DateTime)
+  fullName: TestSR.API.IChatClient.UpdateTime(System.DateTime)
+  type: Method
+  source:
+    id: UpdateTime
+    path: E:\repos\TestSR\TestSR.API\ChatHub.cs
+    startLine: 31
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  syntax:
+    content: Task UpdateTime(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateTime(dateTime As Date) As Task
+  overload: TestSR.API.IChatClient.UpdateTime*
+  nameWithType.vb: IChatClient.UpdateTime(Date)
+  fullName.vb: TestSR.API.IChatClient.UpdateTime(Date)
+  name.vb: UpdateTime(Date)
+references:
+- uid: TestSR.API
+  commentId: N:TestSR.API
+  href: TestSR.html
+  name: TestSR.API
+  nameWithType: TestSR.API
+  fullName: TestSR.API
+  spec.csharp:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+  spec.vb:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+- uid: TestSR.API.IChatClient.ReceiveNotification*
+  commentId: Overload:TestSR.API.IChatClient.ReceiveNotification
+  href: TestSR.API.IChatClient.html#TestSR_API_IChatClient_ReceiveNotification_System_String_
+  name: ReceiveNotification
+  nameWithType: IChatClient.ReceiveNotification
+  fullName: TestSR.API.IChatClient.ReceiveNotification
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: TestSR.API.IChatClient.UpdateTime*
+  commentId: Overload:TestSR.API.IChatClient.UpdateTime
+  href: TestSR.API.IChatClient.html#TestSR_API_IChatClient_UpdateTime_System_DateTime_
+  name: UpdateTime
+  nameWithType: IChatClient.UpdateTime
+  fullName: TestSR.API.IChatClient.UpdateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date

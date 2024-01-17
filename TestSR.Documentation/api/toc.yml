@@ -1,0 +1,26 @@
+### YamlMime:TableOfContent
+items:
+- uid: TestSR.API
+  name: TestSR.API
+  items:
+  - uid: TestSR.API.ChatHub
+    name: ChatHub
+  - uid: TestSR.API.ClientCertificateAuthenticationHandler
+    name: ClientCertificateAuthenticationHandler
+  - uid: TestSR.API.ClientCertificateAuthenticationOptions
+    name: ClientCertificateAuthenticationOptions
+  - uid: TestSR.API.ClientCertificateProvider
+    name: ClientCertificateProvider
+  - uid: TestSR.API.ICertificateValidationService
+    name: ICertificateValidationService
+  - uid: TestSR.API.IChatClient
+    name: IChatClient
+  - uid: TestSR.API.IClientCertificateProvider
+    name: IClientCertificateProvider
+  - uid: TestSR.API.MyCertificateValidationService
+    name: MyCertificateValidationService
+  - uid: TestSR.API.MyConnection
+    name: MyConnection
+  - uid: TestSR.API.ServerTimeNotifierService
+    name: ServerTimeNotifierService
+memberLayout: SamePage

@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestSR.API
+  commentId: N:TestSR.API
+  id: TestSR.API
+  children:
+  - TestSR.API.ChatHub
+  - TestSR.API.ClientCertificateAuthenticationHandler
+  - TestSR.API.ClientCertificateAuthenticationOptions
+  - TestSR.API.ClientCertificateProvider
+  - TestSR.API.ICertificateValidationService
+  - TestSR.API.IChatClient
+  - TestSR.API.IClientCertificateProvider
+  - TestSR.API.MyCertificateValidationService
+  - TestSR.API.MyConnection
+  - TestSR.API.ServerTimeNotifierService
+  langs:
+  - csharp
+  - vb
+  name: TestSR.API
+  nameWithType: TestSR.API
+  fullName: TestSR.API
+  type: Namespace
+  assemblies:
+  - TestSR.API
+references:
+- uid: TestSR.API.ChatHub
+  commentId: T:TestSR.API.ChatHub
+  href: TestSR.API.ChatHub.html
+  name: ChatHub
+  nameWithType: ChatHub
+  fullName: TestSR.API.ChatHub
+- uid: TestSR.API.IChatClient
+  commentId: T:TestSR.API.IChatClient
+  href: TestSR.API.IChatClient.html
+  name: IChatClient
+  nameWithType: IChatClient
+  fullName: TestSR.API.IChatClient
+- uid: TestSR.API.IClientCertificateProvider
+  commentId: T:TestSR.API.IClientCertificateProvider
+  parent: TestSR.API
+  href: TestSR.API.IClientCertificateProvider.html
+  name: IClientCertificateProvider
+  nameWithType: IClientCertificateProvider
+  fullName: TestSR.API.IClientCertificateProvider
+- uid: TestSR.API.ClientCertificateProvider
+  commentId: T:TestSR.API.ClientCertificateProvider
+  href: TestSR.API.ClientCertificateProvider.html
+  name: ClientCertificateProvider
+  nameWithType: ClientCertificateProvider
+  fullName: TestSR.API.ClientCertificateProvider
+- uid: TestSR.API.MyCertificateValidationService
+  commentId: T:TestSR.API.MyCertificateValidationService
+  href: TestSR.API.MyCertificateValidationService.html
+  name: MyCertificateValidationService
+  nameWithType: MyCertificateValidationService
+  fullName: TestSR.API.MyCertificateValidationService
+- uid: TestSR.API.ICertificateValidationService
+  commentId: T:TestSR.API.ICertificateValidationService
+  parent: TestSR.API
+  href: TestSR.API.ICertificateValidationService.html
+  name: ICertificateValidationService
+  nameWithType: ICertificateValidationService
+  fullName: TestSR.API.ICertificateValidationService
+- uid: TestSR.API.ClientCertificateAuthenticationOptions
+  commentId: T:TestSR.API.ClientCertificateAuthenticationOptions
+  href: TestSR.API.ClientCertificateAuthenticationOptions.html
+  name: ClientCertificateAuthenticationOptions
+  nameWithType: ClientCertificateAuthenticationOptions
+  fullName: TestSR.API.ClientCertificateAuthenticationOptions
+- uid: TestSR.API.ClientCertificateAuthenticationHandler
+  commentId: T:TestSR.API.ClientCertificateAuthenticationHandler
+  href: TestSR.API.ClientCertificateAuthenticationHandler.html
+  name: ClientCertificateAuthenticationHandler
+  nameWithType: ClientCertificateAuthenticationHandler
+  fullName: TestSR.API.ClientCertificateAuthenticationHandler
+- uid: TestSR.API.MyConnection
+  commentId: T:TestSR.API.MyConnection
+  href: TestSR.API.MyConnection.html
+  name: MyConnection
+  nameWithType: MyConnection
+  fullName: TestSR.API.MyConnection
+- uid: TestSR.API.ServerTimeNotifierService
+  commentId: T:TestSR.API.ServerTimeNotifierService
+  href: TestSR.API.ServerTimeNotifierService.html
+  name: ServerTimeNotifierService
+  nameWithType: ServerTimeNotifierService
+  fullName: TestSR.API.ServerTimeNotifierService
+- uid: TestSR.API
+  commentId: N:TestSR.API
+  href: TestSR.html
+  name: TestSR.API
+  nameWithType: TestSR.API
+  fullName: TestSR.API
+  spec.csharp:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+  spec.vb:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html

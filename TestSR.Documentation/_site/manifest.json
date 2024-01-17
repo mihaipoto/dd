@@ -1,0 +1,448 @@
+{
+  "source_base_path": "E:/repos/TestSR/TestSR.Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ChatHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ChatHub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ClientCertificateAuthenticationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ClientCertificateAuthenticationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ClientCertificateAuthenticationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ClientCertificateAuthenticationOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ClientCertificateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ClientCertificateProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ICertificateValidationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ICertificateValidationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.IChatClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.IChatClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.IClientCertificateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.IClientCertificateProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.MyCertificateValidationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.MyCertificateValidationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.MyConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.MyConnection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.ServerTimeNotifierService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.ServerTimeNotifierService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestSR.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestSR.API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/mylogo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/mylogo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/test.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/test.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

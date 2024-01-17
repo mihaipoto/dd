@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestSR.API.ChatHub
+  commentId: T:TestSR.API.ChatHub
+  id: ChatHub
+  parent: TestSR.API
+  children:
+  - TestSR.API.ChatHub.OnConnectedAsync
+  langs:
+  - csharp
+  - vb
+  name: ChatHub
+  nameWithType: ChatHub
+  fullName: TestSR.API.ChatHub
+  type: Class
+  source:
+    id: ChatHub
+    path: E:\repos\TestSR\TestSR.API\ChatHub.cs
+    startLine: 6
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  syntax:
+    content: 'public class ChatHub : Hub<IChatClient>, IDisposable'
+    content.vb: Public Class ChatHub Inherits Hub(Of IChatClient) Implements IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.SignalR.Hub
+  - Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}.Clients
+  - Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+  - Microsoft.AspNetCore.SignalR.Hub.Dispose(System.Boolean)
+  - Microsoft.AspNetCore.SignalR.Hub.Dispose
+  - Microsoft.AspNetCore.SignalR.Hub.Context
+  - Microsoft.AspNetCore.SignalR.Hub.Groups
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TestSR.API.ChatHub.OnConnectedAsync
+  commentId: M:TestSR.API.ChatHub.OnConnectedAsync
+  id: OnConnectedAsync
+  parent: TestSR.API.ChatHub
+  langs:
+  - csharp
+  - vb
+  name: OnConnectedAsync()
+  nameWithType: ChatHub.OnConnectedAsync()
+  fullName: TestSR.API.ChatHub.OnConnectedAsync()
+  type: Method
+  source:
+    id: OnConnectedAsync
+    path: E:\repos\TestSR\TestSR.API\ChatHub.cs
+    startLine: 8
+  assemblies:
+  - TestSR.API
+  namespace: TestSR.API
+  summary: Called when a new connection is established with the hub.
+  example: []
+  syntax:
+    content: public override Task OnConnectedAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: A <xref href="System.Threading.Tasks.Task" data-throw-if-not-resolved="false"></xref> that represents the asynchronous connect.
+    content.vb: Public Overrides Function OnConnectedAsync() As Task
+  overridden: Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync
+  overload: TestSR.API.ChatHub.OnConnectedAsync*
+references:
+- uid: TestSR.API
+  commentId: N:TestSR.API
+  href: TestSR.html
+  name: TestSR.API
+  nameWithType: TestSR.API
+  fullName: TestSR.API
+  spec.csharp:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+  spec.vb:
+  - uid: TestSR
+    name: TestSR
+    href: TestSR.html
+  - name: .
+  - uid: TestSR.API
+    name: API
+    href: TestSR.API.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.AspNetCore.SignalR.Hub
+  commentId: T:Microsoft.AspNetCore.SignalR.Hub
+  parent: Microsoft.AspNetCore.SignalR
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub
+  name: Hub
+  nameWithType: Hub
+  fullName: Microsoft.AspNetCore.SignalR.Hub
+- uid: Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}
+  commentId: T:Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}
+  parent: Microsoft.AspNetCore.SignalR
+  definition: Microsoft.AspNetCore.SignalR.Hub`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  name: Hub<IChatClient>
+  nameWithType: Hub<IChatClient>
+  fullName: Microsoft.AspNetCore.SignalR.Hub<TestSR.API.IChatClient>
+  nameWithType.vb: Hub(Of IChatClient)
+  fullName.vb: Microsoft.AspNetCore.SignalR.Hub(Of TestSR.API.IChatClient)
+  name.vb: Hub(Of IChatClient)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub`1
+    name: Hub
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  - name: <
+  - uid: TestSR.API.IChatClient
+    name: IChatClient
+    href: TestSR.API.IChatClient.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub`1
+    name: Hub
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: TestSR.API.IChatClient
+    name: IChatClient
+    href: TestSR.API.IChatClient.html
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}.Clients
+  commentId: P:Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}.Clients
+  parent: Microsoft.AspNetCore.SignalR.Hub{TestSR.API.IChatClient}
+  definition: Microsoft.AspNetCore.SignalR.Hub`1.Clients
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1.clients
+  name: Clients
+  nameWithType: Hub<IChatClient>.Clients
+  fullName: Microsoft.AspNetCore.SignalR.Hub<TestSR.API.IChatClient>.Clients
+  nameWithType.vb: Hub(Of IChatClient).Clients
+  fullName.vb: Microsoft.AspNetCore.SignalR.Hub(Of TestSR.API.IChatClient).Clients
+- uid: Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+  commentId: M:Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.ondisconnectedasync
+  name: OnDisconnectedAsync(Exception)
+  nameWithType: Hub.OnDisconnectedAsync(Exception)
+  fullName: Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+    name: OnDisconnectedAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.ondisconnectedasync
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.OnDisconnectedAsync(System.Exception)
+    name: OnDisconnectedAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.ondisconnectedasync
+  - name: (
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Microsoft.AspNetCore.SignalR.Hub.Dispose(System.Boolean)
+  commentId: M:Microsoft.AspNetCore.SignalR.Hub.Dispose(System.Boolean)
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose(system-boolean)
+  name: Dispose(bool)
+  nameWithType: Hub.Dispose(bool)
+  fullName: Microsoft.AspNetCore.SignalR.Hub.Dispose(bool)
+  nameWithType.vb: Hub.Dispose(Boolean)
+  fullName.vb: Microsoft.AspNetCore.SignalR.Hub.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.Dispose(System.Boolean)
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose(system-boolean)
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Microsoft.AspNetCore.SignalR.Hub.Dispose
+  commentId: M:Microsoft.AspNetCore.SignalR.Hub.Dispose
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose
+  name: Dispose()
+  nameWithType: Hub.Dispose()
+  fullName: Microsoft.AspNetCore.SignalR.Hub.Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.dispose#microsoft-aspnetcore-signalr-hub-dispose
+  - name: (
+  - name: )
+- uid: Microsoft.AspNetCore.SignalR.Hub.Context
+  commentId: P:Microsoft.AspNetCore.SignalR.Hub.Context
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.context
+  name: Context
+  nameWithType: Hub.Context
+  fullName: Microsoft.AspNetCore.SignalR.Hub.Context
+- uid: Microsoft.AspNetCore.SignalR.Hub.Groups
+  commentId: P:Microsoft.AspNetCore.SignalR.Hub.Groups
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.groups
+  name: Groups
+  nameWithType: Hub.Groups
+  fullName: Microsoft.AspNetCore.SignalR.Hub.Groups
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.SignalR
+  commentId: N:Microsoft.AspNetCore.SignalR
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.SignalR
+  nameWithType: Microsoft.AspNetCore.SignalR
+  fullName: Microsoft.AspNetCore.SignalR
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.SignalR
+    name: SignalR
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.SignalR
+    name: SignalR
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr
+- uid: Microsoft.AspNetCore.SignalR.Hub`1
+  commentId: T:Microsoft.AspNetCore.SignalR.Hub`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  name: Hub<T>
+  nameWithType: Hub<T>
+  fullName: Microsoft.AspNetCore.SignalR.Hub<T>
+  nameWithType.vb: Hub(Of T)
+  fullName.vb: Microsoft.AspNetCore.SignalR.Hub(Of T)
+  name.vb: Hub(Of T)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub`1
+    name: Hub
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub`1
+    name: Hub
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Microsoft.AspNetCore.SignalR.Hub`1.Clients
+  commentId: P:Microsoft.AspNetCore.SignalR.Hub`1.Clients
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub-1.clients
+  name: Clients
+  nameWithType: Hub<T>.Clients
+  fullName: Microsoft.AspNetCore.SignalR.Hub<T>.Clients
+  nameWithType.vb: Hub(Of T).Clients
+  fullName.vb: Microsoft.AspNetCore.SignalR.Hub(Of T).Clients
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync
+  commentId: M:Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync
+  parent: Microsoft.AspNetCore.SignalR.Hub
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.onconnectedasync
+  name: OnConnectedAsync()
+  nameWithType: Hub.OnConnectedAsync()
+  fullName: Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync
+    name: OnConnectedAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.onconnectedasync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.Hub.OnConnectedAsync
+    name: OnConnectedAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.signalr.hub.onconnectedasync
+  - name: (
+  - name: )
+- uid: TestSR.API.ChatHub.OnConnectedAsync*
+  commentId: Overload:TestSR.API.ChatHub.OnConnectedAsync
+  href: TestSR.API.ChatHub.html#TestSR_API_ChatHub_OnConnectedAsync
+  name: OnConnectedAsync
+  nameWithType: ChatHub.OnConnectedAsync
+  fullName: TestSR.API.ChatHub.OnConnectedAsync
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

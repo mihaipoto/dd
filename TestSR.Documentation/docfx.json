@@ -1,0 +1,49 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "templates/modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Documentatie TestSR",
+      "_appTitle": "Documentatie TestSR",
+      "_enableSearch": true,
+      "pdf": true,
+      "_appFooter": "Made with care for the end user.",
+      "_appLogoPath": "images/mylogo.svg",
+      "_disableNextArticle": false,
+      "_disableTocFilter": false
+    }
+  }
+}
