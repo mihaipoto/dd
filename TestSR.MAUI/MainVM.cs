@@ -71,15 +71,17 @@ public partial class MainVM(
     {
 
         await Task.Delay(500);
+
         _sslOptions = new SslClientAuthenticationOptions()
         {
-            CipherSuitesPolicy = new CipherSuitesPolicy(new List<TlsCipherSuite> { TlsCipherSuite.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 }),
+
             ClientCertificates = clientCertificateProvider.GetClientCertificates("u1"),
             RemoteCertificateValidationCallback = (a, b, n, c) =>
             {
                 return true;
             }
         };
+
         _socksHttpHandler = new SocketsHttpHandler
         {
             SslOptions = _sslOptions
